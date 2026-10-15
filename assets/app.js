@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('form[data-confirm]').forEach(form=>form.addEventListener('submit',e=>{if(!confirm(form.dataset.confirm||'Continue?'))e.preventDefault()}));document.querySelectorAll('[data-autodismiss]').forEach(el=>setTimeout(()=>{el.style.opacity='0';setTimeout(()=>el.remove(),300)},4500));});
