@@ -1,0 +1,1 @@
+</div><footer class="footer"><span>© <?=date('Y')?> LoanDesk LOS</span><span>Loan origination workspace · Handle customer data responsibly</span></footer></main></div><script src="assets/app.js"></script></body></html>
